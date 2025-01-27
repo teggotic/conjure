@@ -49,7 +49,7 @@
         (= "for_statement" (node:type)) true
         (= "call" (node:type)) true
         (and (= "class_definition" (node:type))
-              (not (= "decorated_definition" (parent:type)))) true
+             (not (= "decorated_definition" (parent:type)))) true
         (and (= "function_definition" (node:type))
              (not (= "decorated_definition" (parent:type)))) true
         false)))
@@ -316,4 +316,4 @@
  : on-load
  : on-exit
  : interrupt
- : on-filetype }
+ : on-filetype}

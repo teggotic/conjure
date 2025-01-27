@@ -78,5 +78,5 @@
  : first-and-last-chars
  : strip-ansi-escape-sequences
  : chars
- : upper-first
- }
+ : upper-first}
+ 
